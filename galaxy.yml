@@ -1,7 +1,7 @@
 ---
 namespace: infra
 name: rhbk_ha_cluster
-version: "1.0.0"
+version: 1.0.0
 readme: README.md
 authors:
   - Guido Grazioli <ggraziol@redhat.com>
@@ -37,7 +37,6 @@ issues: https://github.com/ansible-middleware/rhbk-ha-cluster/issues
 build_ignore:
   - .gitignore
   - .github
-  - .ansible-lint
   - .yamllint
   - '*.tar.gz'
   - '*.zip'
